@@ -1,0 +1,772 @@
+2025-06-06 00:38:28,209 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:38:53,808 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:38:55,824 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:39:07,154 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:39:12,095 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:45:46,316 | INFO | api_performance | GET / - 200 - 19.9ms
+2025-06-06 00:45:46,360 | INFO | api_performance | GET /favicon.ico - 404 - 1.0ms
+2025-06-06 00:45:55,896 | INFO | api_performance | GET / - 200 - 1.01ms
+2025-06-06 00:46:01,079 | INFO | api_performance | GET / - 200 - 2.16ms
+2025-06-06 00:46:11,804 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:46:15,753 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:46:22,127 | INFO | api_performance | GET / - 200 - 3.01ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 00:46:40,972 | INFO | api_performance | GET / - 200 - 1.01ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 00:46:53,931 | INFO | admin_panel_logger | Admin Request: GET /admin/promotions | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Body: 
+2025-06-06 00:47:05,450 | INFO | api_performance | GET /docs - 200 - 1.0ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 00:47:05,838 | INFO | api_performance | GET /openapi.json - 200 - 36.44ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 00:53:22,809 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:53:25,773 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:53:34,486 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:53:35,456 | ERROR | fastapi | Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-06-06 00:54:44,702 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:54:57,890 | INFO | api_performance | POST /auth/admin-login - 200 - 8.56ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 00:55:33,249 | INFO | admin_panel_logger | Admin Request: GET /admin/promotions | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Body: 
+2025-06-06 00:55:37,111 | INFO | admin_panel_logger | Admin Request: GET /admin/promotions | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Body: 
+2025-06-06 00:56:44,164 | INFO | api_performance | POST /auth/admin-login - 401 - 6.53ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 00:56:48,894 | INFO | api_performance | POST /auth/admin-login - 200 - 7.59ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 00:58:37,481 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:58:40,685 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 00:58:57,522 | INFO | api_performance | POST /auth/admin-login - 200 - 4.01ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:01:08,526 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:01:13,616 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:01:54,041 | INFO | api_performance | POST /auth/admin-login - 200 - 10.05ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:02:32,382 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:02:35,394 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:02:42,491 | INFO | api_performance | POST /auth/admin-login - 200 - 14.74ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:03:03,917 | INFO | api_performance | POST /auth/admin-login - 200 - 5.13ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:03:12,154 | INFO | admin_panel_logger | Admin Request: GET /admin/promotions | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Body: 
+2025-06-06 01:03:29,368 | INFO | api_performance | GET /docs - 200 - 3.02ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:03:29,642 | INFO | api_performance | GET /openapi.json - 200 - 32.75ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:03:50,336 | INFO | api_performance | POST /auth/admin-login - 200 - 3.68ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:04:07,027 | INFO | api_performance | POST /auth/admin-login - 200 - 7.27ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:04:22,364 | INFO | admin_panel_logger | Admin Request: GET /admin/promotions | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Body: 
+2025-06-06 01:05:10,692 | INFO | api_performance | POST /auth/admin-login - 422 - 82.36ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:07:27,679 | INFO | api_performance | POST /auth/admin-login - 422 - 2.91ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:08:53,083 | INFO | api_performance | POST /auth/admin-login - 422 - 9.16ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:09:03,953 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:09:18,491 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:10:16,910 | INFO | api_performance | POST /auth/admin-login - 200 - 4.38ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:10:32,680 | INFO | api_performance | POST /auth/admin-login - 200 - 6.1ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:10:54,125 | INFO | api_performance | POST /auth/admin-login - 200 - 7.27ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:11:30,853 | INFO | api_performance | POST /auth/admin-login - 422 - 7.91ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:11:37,714 | INFO | api_performance | POST /auth/admin-login - 422 - 4.1ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:11:43,484 | INFO | api_performance | POST /auth/admin-login - 422 - 8.88ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:11:56,918 | INFO | api_performance | POST /auth/admin-login - 422 - 8.68ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:12:05,303 | INFO | api_performance | POST /auth/admin-login - 200 - 5.66ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:12:20,614 | INFO | api_performance | POST /auth/admin-login - 200 - 11.82ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:12:26,430 | INFO | api_performance | POST /auth/admin-login - 200 - 8.91ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:12:31,068 | INFO | api_performance | POST /auth/admin-login - 200 - 2.73ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:12:37,164 | INFO | admin_panel_logger | Admin Request: GET /admin/promotions | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Body: 
+2025-06-06 01:13:07,951 | INFO | api_performance | POST /auth/admin-login - 200 - 13.36ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:13:29,795 | INFO | api_performance | POST /auth/admin-login - 200 - 4.62ms | IP: 127.0.0.1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+2025-06-06 01:14:30,085 | INFO | api_performance | POST /auth/admin-login - 422 - 0.86ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:14:37,345 | INFO | api_performance | POST /auth/admin-login - 422 - 0.0ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:15:25,179 | INFO | admin_panel_logger | Admin Request: GET /admin/promotions | Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} | Body: 
+2025-06-06 01:15:39,707 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:15:45,768 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:15:49,103 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:15:53,835 | INFO | api_performance | POST /auth/admin-login - 200 - 6.62ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:16:49,001 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:16:54,362 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:16:57,853 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:17:03,937 | INFO | api_performance | POST /auth/admin-login - 422 - 6.27ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:19:13,631 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:19:20,013 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:19:20,695 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:19:24,993 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:19:32,363 | INFO | api_performance | POST /auth/admin-login - 422 - 3.36ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:22:08,708 | INFO | api_performance | POST /auth/admin-login - 422 - 2.0ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:22:27,486 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:22:30,512 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:22:32,051 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:22:34,669 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 01:22:34,692 | INFO | api_performance | POST /auth/admin-login - 200 - 5.0ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:22:53,437 | INFO | admin_panel_logger | Admin Request: POST /admin/promotions | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MTU2NzU0fQ.FskvqJUd2WyRHyNfuJiUlvZxlumBRPCD06SGLFdRDp4', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '15e7a34c-0fdc-4f5c-8ba9-6264100db2bf', 'host': 'localhost:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'} | Body: admin=admin123&admin=admin123
+2025-06-06 01:22:53,446 | INFO | api_performance | POST /admin/promotions - 422 - 9.71ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:23:08,168 | INFO | admin_panel_logger | Admin Request: GET /admin/promotions | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MTU2NzU0fQ.FskvqJUd2WyRHyNfuJiUlvZxlumBRPCD06SGLFdRDp4', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'cb048dd9-0671-4d73-8ba9-3ea5dd572e06', 'host': 'localhost:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '54'} | Body: {
+
+  "username":"admin",
+
+  "password":"admin123"
+
+}
+
+
+2025-06-06 01:23:08,232 | INFO | api_performance | GET /admin/promotions - 200 - 64.42ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 01:23:19,162 | INFO | admin_panel_logger | Admin Request: GET /admin/activity-logs | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MTU2NzU0fQ.FskvqJUd2WyRHyNfuJiUlvZxlumBRPCD06SGLFdRDp4', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '84501565-5027-4340-a37d-7dd250039a7b', 'host': 'localhost:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '54'} | Body: {
+
+  "username":"admin",
+
+  "password":"admin123"
+
+}
+
+
+2025-06-06 01:23:19,175 | INFO | api_performance | GET /admin/activity-logs - 200 - 13.6ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:17:23,730 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:17:23,977 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:20:18,608 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:21:08,554 | INFO | admin_panel_logger | Admin Request: POST /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MTU2NzU0fQ.FskvqJUd2WyRHyNfuJiUlvZxlumBRPCD06SGLFdRDp4', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'ab5631d1-9dae-4e1e-a3a9-f27ebaad2109', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Monday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:21:20,547 | INFO | api_performance | POST /auth/admin-login - 200 - 2.0ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:21:45,377 | INFO | admin_panel_logger | Admin Request: POST /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '481ea99e-b310-4f66-8a72-b0372712604f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Monday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:21:45,446 | ERROR | app | Unhandled error [95219615]: ResponseValidationError: 2 validation errors:
+  {'type': 'datetime_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+  {'type': 'datetime_type', 'loc': ('response', 'updated_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+Traceback (most recent call last):
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\anyio\streams\memory.py", line 104, in receive_nowait
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\sanhri_backend\app\middleware\error_handler.py", line 26, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\sanhri_backend\app\middleware\error_handler.py", line 209, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'datetime_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+  {'type': 'datetime_type', 'loc': ('response', 'updated_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+
+2025-06-06 14:21:45,510 | INFO | api_performance | POST /admin/store-hours/ - 500 - 133.78ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:22:09,935 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:22:14,605 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:22:18,133 | INFO | admin_panel_logger | Admin Request: POST /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '5f9717d5-1ed9-48a4-8acd-9b60bed48c6b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Monday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:22:18,145 | ERROR | app | Unhandled error [63c5c24e]: ResponseValidationError: 2 validation errors:
+  {'type': 'datetime_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+  {'type': 'datetime_type', 'loc': ('response', 'updated_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+Traceback (most recent call last):
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\anyio\streams\memory.py", line 104, in receive_nowait
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\sanhri_backend\app\middleware\error_handler.py", line 26, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\sanhri_backend\app\middleware\error_handler.py", line 209, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'datetime_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+  {'type': 'datetime_type', 'loc': ('response', 'updated_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+
+2025-06-06 14:22:18,154 | INFO | api_performance | POST /admin/store-hours/ - 500 - 22.24ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:23:01,694 | INFO | admin_panel_logger | Admin Request: GET /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '911d79f0-7ff1-4893-94ff-32e57304b6eb', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Monday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:23:01,706 | INFO | api_performance | GET /admin/store-hours/ - 200 - 13.49ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:23:19,240 | INFO | admin_panel_logger | Admin Request: POST /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '2b67170f-c38a-4a87-86be-fb598a460830', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Friday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:23:19,260 | ERROR | app | Unhandled error [82d905a0]: ResponseValidationError: 2 validation errors:
+  {'type': 'datetime_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+  {'type': 'datetime_type', 'loc': ('response', 'updated_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+Traceback (most recent call last):
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\anyio\streams\memory.py", line 104, in receive_nowait
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\sanhri_backend\app\middleware\error_handler.py", line 26, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\sanhri_backend\app\middleware\error_handler.py", line 209, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'datetime_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+  {'type': 'datetime_type', 'loc': ('response', 'updated_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+
+2025-06-06 14:23:19,272 | INFO | api_performance | POST /admin/store-hours/ - 500 - 32.4ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:23:25,354 | INFO | admin_panel_logger | Admin Request: GET /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '551f3f2b-425b-40c2-8575-57954467a543', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Friday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:23:25,357 | INFO | api_performance | GET /admin/store-hours/ - 200 - 3.52ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:28:32,258 | INFO | admin_panel_logger | Admin Request: POST /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '3a9122d9-c068-4551-94d2-3cdb8c1e34c5', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Friday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:28:32,600 | ERROR | app | Unhandled error [f3157e1a]: ResponseValidationError: 2 validation errors:
+  {'type': 'datetime_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+  {'type': 'datetime_type', 'loc': ('response', 'updated_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+Traceback (most recent call last):
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\anyio\streams\memory.py", line 104, in receive_nowait
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\sanhri_backend\app\middleware\error_handler.py", line 26, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\sanhri_backend\app\middleware\error_handler.py", line 209, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\sanhri_backend\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\sanhri_backend\venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'datetime_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+  {'type': 'datetime_type', 'loc': ('response', 'updated_at'), 'msg': 'Input should be a valid datetime', 'input': None}
+
+2025-06-06 14:28:32,612 | INFO | api_performance | POST /admin/store-hours/ - 500 - 363.25ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:29:40,508 | INFO | admin_panel_logger | Admin Request: GET /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'b92ea92a-f525-4737-b88a-07c0484578cf', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Friday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:29:40,539 | INFO | api_performance | GET /admin/store-hours/ - 200 - 31.68ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:30:48,744 | INFO | admin_panel_logger | Admin Request: PUT /admin/store-hours/86dd472f-eca4-4be1-bdb4-2d4d79c1fece | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '8b9807bb-e427-4176-975f-2aa83f6603d0', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '85'} | Body: {
+
+  "open_time": "99:00:00",
+
+  "close_time": "199:00:00",
+
+  "is_closed": true
+
+}
+
+
+2025-06-06 14:30:48,842 | INFO | api_performance | PUT /admin/store-hours/86dd472f-eca4-4be1-bdb4-2d4d79c1fece - 422 - 102.45ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:31:09,764 | INFO | admin_panel_logger | Admin Request: PUT /admin/store-hours/86dd472f-eca4-4be1-bdb4-2d4d79c1fece | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'c6d2a1c3-577f-4b28-94d9-13c5730aba71', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '84'} | Body: {
+
+  "open_time": "20:00:00",
+
+  "close_time": "23:00:00",
+
+  "is_closed": true
+
+}
+
+
+2025-06-06 14:31:09,811 | INFO | api_performance | PUT /admin/store-hours/86dd472f-eca4-4be1-bdb4-2d4d79c1fece - 200 - 48.72ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:31:19,009 | INFO | admin_panel_logger | Admin Request: GET /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '9b9873c6-4ec6-4ab4-a1fc-7b47fddfd585', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '84'} | Body: {
+
+  "open_time": "20:00:00",
+
+  "close_time": "23:00:00",
+
+  "is_closed": true
+
+}
+
+
+2025-06-06 14:31:19,019 | INFO | api_performance | GET /admin/store-hours/ - 200 - 13.59ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:31:43,493 | INFO | admin_panel_logger | Admin Request: DELETE /admin/store-hours/86dd472f-eca4-4be1-bdb4-2d4d79c1fece | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '4aa4c6e5-d4be-42ff-8b70-fc9c8d2988bb', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '84'} | Body: {
+
+  "open_time": "20:00:00",
+
+  "close_time": "23:00:00",
+
+  "is_closed": true
+
+}
+
+
+2025-06-06 14:31:43,517 | INFO | api_performance | DELETE /admin/store-hours/86dd472f-eca4-4be1-bdb4-2d4d79c1fece - 200 - 24.13ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:31:50,850 | INFO | admin_panel_logger | Admin Request: GET /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '0fc80907-ad39-4aea-ad4e-bef460a14651', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '84'} | Body: {
+
+  "open_time": "20:00:00",
+
+  "close_time": "23:00:00",
+
+  "is_closed": true
+
+}
+
+
+2025-06-06 14:31:50,857 | INFO | api_performance | GET /admin/store-hours/ - 200 - 8.51ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:36:50,953 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:37:43,183 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:37:45,013 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:37:49,555 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:37:49,849 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:37:52,914 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 14:38:13,479 | INFO | admin_panel_logger | Admin Request: POST /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '6335bc8a-7fc3-483c-bf9c-973b4bc8d949', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Monday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:38:13,541 | INFO | api_performance | POST /admin/store-hours/ - 200 - 64.24ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:38:33,552 | INFO | admin_panel_logger | Admin Request: POST /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '6459d5e8-20f8-4263-a3b6-c87455d17b7b', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Monday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:38:33,579 | INFO | api_performance | POST /admin/store-hours/ - 200 - 26.24ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 14:38:45,344 | INFO | admin_panel_logger | Admin Request: POST /admin/store-hours/ | Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJtYWxsX2FkbWluIiwiZXhwIjoxNzQ5MjAzNDgwfQ.l6Go6MrjxxiZpF8xofK8W5ENdghv8_zmzcxqNfwn5wc', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.44.0', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '17df14e2-1215-424d-a8fd-8f4769d68d5f', 'host': '127.0.0.1:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '167'} | Body: {
+
+  "shop_id": "111e4567-e89b-12d3-a456-426614174000",
+
+  "day_of_week": "Monday",
+
+  "open_time": "10:00:00",
+
+  "close_time": "22:00:00",
+
+  "is_closed": false
+
+}
+
+
+2025-06-06 14:38:45,432 | INFO | api_performance | POST /admin/store-hours/ - 200 - 88.35ms | IP: 127.0.0.1 | UA: PostmanRuntime/7.44.0
+2025-06-06 15:22:12,659 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:22:18,707 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:25:12,647 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:25:33,027 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:25:33,027 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:26:50,138 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:26:55,333 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:01,251 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:06,570 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:10,691 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:21,259 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:26,591 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:30,005 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:39,267 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:43,344 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:27:59,951 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:27:59,951 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:27:59,951 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:27:59,955 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:27:59,955 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:27:59,955 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:28:10,385 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:31:08,240 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:31:15,315 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:31:15,315 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:31:15,315 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:31:33,627 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:31:37,286 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:38:33,296 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:38:36,910 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:38:51,670 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:38:55,224 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:39:00,782 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:39:04,122 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 15:39:04,463 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:39:04,464 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 15:39:04,464 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 16:03:57,271 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 16:03:57,275 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 16:05:19,054 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 16:05:22,326 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 16:05:23,268 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 16:05:23,268 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 16:05:23,268 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 16:05:23,268 | ERROR | asyncio | Exception in callback PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()
+handle: <Handle PollerCompletionQueue._handle_events(<_WindowsSele...e debug=False>)()>
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/completion_queue.pyx.pxi", line 147, in grpc._cython.cygrpc.PollerCompletionQueue._handle_events
+BlockingIOError: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-06-06 16:11:48,249 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 16:11:56,506 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 16:14:01,517 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 17:19:18,743 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 17:19:59,179 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 17:20:01,829 | INFO | databases | Connected to database postgresql+asyncpg://postgres:********@localhost/sanhri
+2025-06-06 17:21:17,591 | INFO | databases | Disconnected from database postgresql+asyncpg://postgres:********@localhost/sanhri

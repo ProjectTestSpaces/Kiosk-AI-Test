@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package userpreferences;
+
+service UserPreferenceService {
+  rpc UpdatePreference (UserPreferenceRequest) returns (UserPreferenceResponse);
+}
+
+message UserPreferenceRequest {
+  string user_id = 1;
+  string preference_key = 2;
+  string preference_value = 3;
+}
+
+message UserPreferenceResponse {
+  string message = 1;
+}

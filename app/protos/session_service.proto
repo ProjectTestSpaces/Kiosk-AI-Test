@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package session;
+
+service SessionService {
+  rpc SyncSession (SessionSyncRequest) returns (SessionSyncResponse);
+}
+
+message SessionSyncRequest {
+  string user_id = 1;
+  string session_event = 2; // e.g., "login", "logout", "activity"
+  string timestamp = 3;
+}
+
+message SessionSyncResponse {
+  string message = 1;
+}

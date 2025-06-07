@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package discountcampaign;
+
+service DiscountCampaignService {
+  rpc SyncCampaign(CampaignSyncRequest) returns (CampaignSyncResponse);
+}
+
+message CampaignSyncRequest {
+  string campaign_id = 1;
+  string shop_id = 2;
+  string campaign_name = 3;
+  string discount_type = 4;
+  float discount_value = 5;
+  string start_date = 6;
+  string end_date = 7;
+  string status = 8;
+}
+
+message CampaignSyncResponse {
+  string message = 1;
+}

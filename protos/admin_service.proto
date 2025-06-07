@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package adminservice;
+
+// Request and response for user ban
+message UserStatusRequest {
+  string user_id = 1;
+  string new_status = 2;
+}
+
+message UserStatusResponse {
+  string message = 1;
+}
+
+// Define the service
+service AdminService {
+  rpc UpdateUserStatus(UserStatusRequest) returns (UserStatusResponse);
+}
+
